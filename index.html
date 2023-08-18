@@ -1,39 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assetes/materialize/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="/assetes/css/style.css">
 
-    <title>Document</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assetes/materialize/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/assetes/css/util.css">
+  <link rel="stylesheet" href="/assetes/css/style.css">
+
+  <title>Document</title>
 </head>
+
 <body>
 
-    <nav>
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
-          </ul>
-        </div>
-      </nav>
-    
-      <ul class="sidenav" id="mobile-demo">
+  <nav class="z-depth-0">
+    <div class="nav-wrapper white ">
+      <a href="#!" class="blue-grey-text">Home</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons blue-grey-text ">menu</i></a>
+      <ul class="right hide-on-med-and-down">
         <li><a href="sass.html">Sass</a></li>
         <li><a href="badges.html">Components</a></li>
         <li><a href="collapsible.html">Javascript</a></li>
         <li><a href="mobile.html">Mobile</a></li>
       </ul>
-              
+    </div>
+  </nav>
 
-    <script src="/assetes/materialize/js/materialize.min.js"></script>
-   <script src="/assetes/js/app.js"></script> 
+  <ul class="sidenav" id="mobile-demo">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="/assetes/IMG/1.avif" class=" w-full op-0-3">
+        </div>
+        <a href="#user"><img class="circle" src="/assetes/IMG/avatar.png"></a>
+        <a href="#name"><span class="black-text name">Zahra Baghi</span></a>
+        <a href="#email"><span class="black-text email">jdandturk@gmail.com</span></a>
+      </div>
+    </li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+
+  </ul>
+
+
+  <script src="/assetes/materialize/js/materialize.min.js"></script>
+  <script src="/assetes/js/app.js"></script>
 </body>
+
 </html>
